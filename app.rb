@@ -8,3 +8,6 @@ end
 get '/blockman' do
   "be the kng"
 end
+get  '/cat' do
+  erb(:index)
+end
